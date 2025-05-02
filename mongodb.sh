@@ -1,4 +1,4 @@
-cp mongodb.sh /etc/yum.repos.d/mongo.repo
+cp mongo.repo /etc/yum.repos.d/mongo.repo
 sudo dnf clean all
 sudo dnf makecache
 sudo dnf install -y mongodb-org
